@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.svg" sizes="32x32" type="image/png">
+    <title>HyperionBCC</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header id="navbarHeader">
+        <nav class="navbar navbar-header navbar-expand-lg fixed-top">
+            <div class="container-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft">
+                    <i class="bi bi-list"></i>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.svg" class="img-fluid" alt="">
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Navigation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item ">
+                                <a href="index.html" class="nav-link active">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="casestudy.html" class="nav-link">Case Study</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="services.html" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="careers.html" class="nav-link">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mainwrapper">
+        <div class="mainbodywrapper">
+
+            <section class="section hero-section">
+                <!-- <div class="hero-shape"><img src="img/in-hero-shape.svg" class="img-fluid"></div> -->
+                <div class="container-fluid">
+                  <div class="row my-5">
+                    <div class="col-12">
+                      <h2 class="hero-title">The drive to make it <span class="text-primary">big</span></h2>
+                      <h2 class="hero-title">The strive to make it <span class="text-primary">happen</span></h2>
+                      <h6 class="hero-desc">We are here to incite result-oriented actions that drives purpose and profitability</h6>
+                    </div>
+                  </div>
+                  <div class="row ">
+                    <div class="col-12">
+                      <div class="herogrid_wrapper">
+                        <div class="herogrid_item">
+                          <div class="card herogrid_card pattern" 
+                            style="
+                              height: 400px;
+                              --bs-card-bg : #C3B78D; 
+                              --imageurl : url('../img/hero_images/productdesign.png')
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Product Design</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="herogrid_item">
+                          <div class="card herogrid_card image"
+                            style="
+                              height: 400px;
+                              --bs-card-bg : #848484; 
+                              --imageurl : url('../img/hero_images/communication.jpg');
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Communication</h6>
+                            </div>
+                          </div>
+                          <div class="card herogrid_card pattern" 
+                            style="
+                              height: 150px;
+                              --bs-card-bg : #D6A483; 
+                              --imageurl : url('../img/hero_images/brand.png')
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Brand</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="herogrid_item">
+                          <div class="card herogrid_card image" 
+                            style="
+                              height: 200px;
+                              --bs-card-bg : #848484; 
+                              --imageurl : url('../img/hero_images/fronenddevelopment.jpg')
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Front-end Development</h6>
+                            </div>
+                          </div>
+                          <div class="card herogrid_card pattern" 
+                            style="
+                              height: 50px;
+                              --bs-card-bg : #AD8406; 
+                              --imageurl : url('../img/hero_images/blank.png')
+                            ">
+                          </div>
+                          <div class="card herogrid_card image" 
+                            style="
+                              height: 150px;
+                              --bs-card-bg : #848484; 
+                              --imageurl : url('../img/hero_images/socialmedia.jpg')
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Social Media</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="herogrid_item">
+                          <div class="card herogrid_card image" 
+                            style="
+                              height: 400px;
+                              --bs-card-bg : #848484; 
+                              --imageurl : url('../img/hero_images/marketingtechnology.jpg')
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Marketing Technology</h6>
+                            </div>
+                          </div>
+                          <div class="card herogrid_card pattern" 
+                            style="
+                              height: 150px;
+                              --bs-card-bg : #DAAD86; 
+                              --imageurl : url('../img/hero_images/customersuccess.png')
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Customer Success</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="herogrid_item">
+                          <div class="card herogrid_card pattern" 
+                            style=" 
+                              height: 350px;
+                              --bs-card-bg : #7D6632; 
+                              --imageurl : url('../img/hero_images/businessdevelopment.png')
+                            ">
+                            <div class="card-header">
+                              <h6 class="herogrid_card-title">Business Development</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <section class="section pb-0 pt-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="swiper p-3" id="swiperClient">
+                      <div class="swiper-wrapper">
+                      
+                        <div class="swiper-slide">
+                          <div class="brand-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Godrej_Logo.svg/1280px-Godrej_Logo.svg.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="brand-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cipla_logo.svg/1280px-Cipla_logo.svg.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="brand-image">
+                            <img src="https://listcarbrands.com/wp-content/uploads/2017/11/Mahindra-Logo-2000.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="brand-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/IIM_Kozhikode_Logo.svg/1200px-IIM_Kozhikode_Logo.svg.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="brand-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cipla_logo.svg/1280px-Cipla_logo.svg.png" class="img-fluid" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="section pt-4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-heading">
+                      <div class="section-content">
+                        <h2 class="section-title">Our Work <span class="text-primary">Summary</span></h2>
+                        <p class="section-subtitle">checkout out our works</p>
+                      </div>
+                      <div class="section-action">
+                        <button class="btn btn-link btn-viewall btn-fadedprimary">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="swiper p-3" id="swiperWork">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="card work-card">
+                            <div class="card-image">
+                              <img src="img/work_images/image1.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body">
+                              <div class="work-meta_head">
+                                <h5 class="work-meta_title">Covestro (India) Pvt. Ltd.</h5>
+                                <p  class="work-meta_desc">One of world’s leading producers of high-performance polymers, Covestro offers a wide range of innovative and sustainable solutions in sectors like, automobile, construction, healthcare etc.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="card work-card">
+                            <div class="card-image">
+                              <img src="img/work_images/image2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body">
+                              <div class="work-meta_head">
+                                <a href="" class="work-meta_title stretched-link">IIM-Kozhikode</a>
+                                <p class="work-meta_desc">One of India’s premier management schools, Indian Institute of Management Kozhikode provides comprehensive academic programmes in business education.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="card work-card">
+                            <div class="card-image">
+                              <img src="img/work_images/image3.png" class="img-fluid" alt="">
+                              
+                            </div>
+                            <div class="card-body">
+                              <div class="work-meta_head">
+                                <a href="" class="work-meta_title stretched-link">Riverdale Pune</a>
+                                <p class="work-meta_desc">A micro-township project in Kharadi, Pune. Close to the metro life, daily conveniences, IT sector and nature makes Riverdale Project truly fascinating.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="card work-card">
+                            <div class="card-image">
+                              <img src="img/work_images/image4.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body">
+                              <div class="work-meta_head">
+                                <a href="" class="work-meta_title stretched-link">Camran Mirza</a>
+                                <p class="work-meta_desc">A real estate businessman based in the United Kingdom offers a wide range of luxurious and elegant properties under companies named, Kingmead Homes & Tydwell Group.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-heading">
+                      <div class="section-content">
+                        <h2 class="section-title">Every Base <span class="text-primary">Covered</span></h2>
+                        <h2 class="section-title">Every Strategy <span class="text-primary">Discovered</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <ul class="list-unstyled circle-item-list">
+                      <li class="circle-item">
+                        <div class="circle">
+                          <div class="circle-image">
+                            <img src="img/circle_images/icon1.svg" alt="" class="circle-item-image">
+                          </div>
+                        </div>
+                        <h6 class="circle-item-title">Understand</h6>
+                      </li>
+                      <li class="circle-item">
+                        <div class="circle">
+                          <div class="circle-image">
+                          <img src="img/circle_images/icon2.svg" alt="" class="circle-item-image">
+                          </div>
+                        </div>
+                        <h6 class="circle-item-title">Landscape Audit</h6>
+                      </li>
+                      <li class="circle-item">
+                        <div class="circle">
+                          <div class="circle-image">
+                          <img src="img/circle_images/icon3.svg" alt="" class="circle-item-image">
+                          </div>
+                        </div>
+                        <h6 class="circle-item-title">Data Driven Insights</h6>
+                      </li>
+                      <li class="circle-item">
+                        <div class="circle">
+                          <div class="circle-image">
+                          <img src="img/circle_images/icon4.svg" alt="" class="circle-item-image">
+                          </div>
+                        </div>
+                        <h6 class="circle-item-title">Strategy Building</h6>
+                      </li>
+                      <li class="circle-item">
+                        <div class="circle">
+                          <div class="circle-image">
+                          <img src="img/circle_images/icon5.svg" alt="" class="circle-item-image">
+                          </div>
+                        </div>
+                        <h6 class="circle-item-title">Execution</h6>
+                      </li>
+                      <li class="circle-item">
+                        <div class="circle">
+                          <div class="circle-image">
+                          <img src="img/circle_images/icon6.svg" alt="" class="circle-item-image">
+                          </div>
+                        </div>
+                        <h6 class="circle-item-title">Measurement</h6>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="section bg-primary">
+              <div class="container">
+                <form action="">
+                  <div class="row">
+                    <div class="col-12 col-md-4">
+                      <div class="form-group">
+                        <label class="form-label text-white">Name</label>
+                        <input type="text" class="form-control py-2" placeholder="enter your full name" />
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="form-group">
+                        <label class="form-label text-white">Email Address</label>
+                        <input type="text" class="form-control py-2" placeholder="enter your email address" />
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="form-group">
+                        <label class="form-label text-white">Subject</label>
+                        <input type="text" class="form-control py-2" placeholder="enter subject" />
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-12">
+                      <div class="form-group">
+                        <label class="form-label text-white">Message</label>
+                        <textarea rows="5" class="form-control py-2" placeholder="enter a message"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-12 text-end">
+                      <button class="btn btn-dark px-5 py-3">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
+          
+
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="row g-3">
+              <div class="col-12">
+                <div class="footer-top-inner">
+                  <div class="row">
+                    <div class="col-lg-3 col-12">
+                      <div class="footer-about-widget">
+                        <div class="footer-logo">
+                          <a class="logo" href="index.html"><img src="img/logo-full-white.svg" class="img-fluid"></a>
+                        </div>
+                        <h6 class="footer-about-widget_title">Registered Address: 601, Shreeji, Azad Road, Vile Parle (E),Mumbai 400057</h6>
+                        <h6 class="footer-about-widget_title">Phone: +91 98335 95997</h6>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                      <div class="widget-nav_menu">
+                        <h3 class="widget-title">About</h3>
+                        <ul class="widget-nav_menu-links">
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Case Study</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Services</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Careers</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Contact us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6  col-12">
+                      <div class="widget-nav_menu">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul class="widget-nav_menu-links quicklinks">
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Brand Identity & Guidelines</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Tuned to Technology</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Digital Footprint</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Advertising is Limitless</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Brand Identity & Guidelines</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Tuned to Technology</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Digital Footprint</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="" class="menu-link">Advertising is Limitless</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="copyright__inner">
+                      <p class="copyright-text">Copyright @2023 All rights reserved <a href="#" target="_blank">Hyperionbcc</a></p>
+                      <ul class="social-list">
+                          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                          <li><a href="#"><i class="bi bi-threads"></i></a></li>
+                          <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                          <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+            </div>  
+          </div>
+        </footer>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+<script>
+
+const swiper1 = new Swiper('#swiperWork', {
+    lazy: true,
+    loop: true,
+    mousewheel: false,
+    keyboard: true,
+    grabCursor: true,
+    centeredSlides: false,
+    autoplay: {     
+        delay: 3000,   
+    },   
+    // speed: 3000,    
+    slidesPerView: 1,
+    spaceBetween: 20,
+    // freeMode: true,
+    breakpoints: {
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+});
+
+const swiper2 = new Swiper('#swiperClient', {
+    lazy: true,
+    loop: true,
+    mousewheel: false,
+    keyboard: true,
+    grabCursor: true,
+    centeredSlides: false,
+    autoplay: {     
+        delay: 1000,
+    },   
+    // speed: 3000,    
+    slidesPerView: 1,
+    spaceBetween: 20,
+    // freeMode: true,
+    breakpoints: {
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+    },
+});
+
+</script>    
+</body>
+</html>
